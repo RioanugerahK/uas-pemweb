@@ -12,10 +12,14 @@
           <div class="rectangle"></div>
           <div class="div"></div>
           <p class="HOME-ABOUT-SERVICES">
-            <span class="text-wrapper">HOME</span>
-            <span class="span"
-              >&nbsp;&nbsp; ABOUT&nbsp;&nbsp; SERVICES&nbsp;&nbsp; PRICING&nbsp;&nbsp; PAGES&nbsp;&nbsp; CONTACT</span
-            >
+              &nbsp;&nbsp;
+              <a href="home.html">HOME</a>&nbsp;&nbsp;
+              <a href="about.blade.php">ABOUT</a>&nbsp;&nbsp;
+              <a href="services.blade.php">SERVICES</a>&nbsp;&nbsp;
+              <a href="pricing.html">PRICING</a>&nbsp;&nbsp;
+              <a href="pages.html">PAGES</a>&nbsp;&nbsp;
+              <a href="contact.blade.php">CONTACT</a>
+            </span>
           </p>
           <p class="RR-SHOESLAUNDRY">
             <span class="text-wrapper-2">RR </span> <span class="text-wrapper-3">SHOESLAUNDRY</span>
@@ -49,10 +53,10 @@
 .desktop .rectangle {
   position: absolute;
   width: 1440px;
-  height: 161px;
+  height: 430px;
   top: 0;
   left: 0;
-  background-color: #005ae1;
+  background-color: #194376;
 }
 
 .desktop .div {
@@ -69,8 +73,11 @@
   position: absolute;
   width: 561px;
   height: 69px;
-  top: 137px;
+  top: 115px;
   left: 676px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: transparent;
@@ -95,7 +102,7 @@
   position: absolute;
   width: 413px;
   height: 74px;
-  top: 134px;
+  top: 110px;
   left: 180px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
